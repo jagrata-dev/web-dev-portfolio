@@ -1,0 +1,136 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles */
+.dark-2{
+    color: #474747;
+}
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-3{
+    color: #757575;
+}
+
+.btn-nav{
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px 19px 36px;
+    color: #FFFFFF;
+}
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav Style */
+nav h3{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.nav-h3-style{
+    color:#FD6E0A;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 230px 0px 226px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+    align-items: center;
+}
+
+.greetings{
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 5px;
+}
+
+.h1-header{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner p{
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.download-btn-banner{
+       background-color: #FD6E0A;
+    width: 200px;
+    height: 64px;
+    border: none;
+    border-radius:8px 12px 8px 12px; /*top left, top right, bottom right, bottom left*/
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px 19px 36px;
+    color: #FFFFFF; 
+    margin-right: 30px;
+}
+
+.contact-btn-banner{
+    background-color: #FD6E0A;
+    width: 160px;
+    height: 64px;
+    border: #FD6E0A;
+    border-radius:5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 19px 23px 18px 24px;
+    color: #FFFFFF; 
+}
+
+
+
+/* images */
+.image-hardy{
+    width: 584px;
+    height: 676px;
+}
