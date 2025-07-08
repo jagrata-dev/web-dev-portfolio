@@ -268,3 +268,54 @@ hr{
 .resume-download-btn{
     margin-top: 50px;
 }
+
+/* Footer */
+footer{
+    max-width: 100%;
+}
+
+.footer-section{
+    display: flex;
+    gap: 117px;
+     padding: 120px 230px 140px 230px;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    display: block;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+    padding: 18px 349px 18px 30px;
+    font-size: 16px;
+    color: #757575;
+}
+
+.footer-textarea{
+        display: block;
+    border: none;
+    background-color: white;
+    width: 461px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    padding: 18px 349px 18px 30px;
+    font-size: 16px;
+    color: #757575;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.footer-icon{
+    margin-right: 24px;
+}
+
+
+
+
