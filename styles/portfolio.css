@@ -161,10 +161,11 @@ main section{
 
 /* about */
 .about{
-   padding: 131px 157px 131px 156px;
+  
    border-radius: 10px;
    text-align: center;
-   padding: 131px 157px 131px 156px;
+    padding: 131px 157px 131px 156px;
+   
 }
 
 .about-description{
@@ -188,6 +189,12 @@ main section{
     color: #474747;
 }
 
+.border{
+    border: 2px solid #000000;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    
+}
 /* skill style*/
 .skill-description{
     font-size: 18px;
@@ -307,7 +314,7 @@ footer input[type="text"], footer input[type="email"]{
 
 .footer-description{
     font-size: 16px;
-    font-weight: #474747;
+    color: #474747;
     line-height: 28px;
     margin-bottom: 30px;
 }
