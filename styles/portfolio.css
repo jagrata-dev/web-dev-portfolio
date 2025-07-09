@@ -130,15 +130,15 @@ nav ul{
 }
 
 .contact-btn-banner{
-    background-color: #FD6E0A;
+    background-color: #FFFFFF;
     width: 160px;
     height: 64px;
-    border: #FD6E0A;
+    border: 2px solid #FD6E0A;
     border-radius:5px;
     font-size: 20px;
     font-weight: bold;
     padding: 19px 23px 18px 24px;
-    color: #FFFFFF; 
+    color: #FD6E0A
 }
 
 
